@@ -1,20 +1,22 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/navigation_dashboard"
         android:title="Dashboard"
         android:icon="@drawable/navigation_dashboard" />
     <item
-        android:id="@+id/navigation_events"
-        android:title="Events"
-        android:icon="@drawable/navigation_events" />
-    <item
-        android:id="@+id/navigation_memorial"
-        android:title="Memorial"
-        android:icon="@drawable/navigation_memorial" />
-    <item
         android:id="@+id/navigation_appointments"
         android:title="Appointments"
         android:icon="@drawable/navigation_appointments" />
+    <item
+        android:id="@+id/navigation_memorial"
+        android:title="Memorial"
+        android:icon="@drawable/navigation_memorial"
+        app:iconTint="@color/gold"/>
+    <item
+        android:id="@+id/navigation_events"
+        android:title="Events"
+        android:icon="@drawable/navigation_events" />
     <item
         android:id="@+id/navigation_profile"
         android:title="Profile"
