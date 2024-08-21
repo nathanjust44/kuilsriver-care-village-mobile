@@ -8,12 +8,14 @@
 
     <ImageView
         android:id="@+id/imageViewBackground"
-        android:layout_width="444dp"
-        android:layout_height="791dp"
+        android:layout_width="508dp"
+        android:layout_height="873dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563"
         app:srcCompat="@drawable/mobile_loading_background_img" />
 
     <ImageView
@@ -33,15 +35,15 @@
         android:layout_width="214dp"
         android:layout_height="104dp"
         android:text="Kuilsriver Care Village"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintHorizontal_bias="0.781"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.475" />
+        app:layout_constraintVertical_bias="0.499" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
