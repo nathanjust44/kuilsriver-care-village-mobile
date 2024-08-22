@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Rounded corner background with image -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" /> <!-- Adjust the radius as needed -->
+            <solid android:color="#FFFFFF" /> <!-- Fallback color if image is transparent -->
+        </shape>
+    </item>
+
+    <!-- Image layer -->
+    <item>
+        <bitmap
+            android:src="@drawable/memorial_btn_bg"></bitmap> <!-- Replace with your image -->
+        android:gravity="center" />
+    </item>
+
+    <!-- Optional: Add a stroke for border -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <stroke
+                android:width="1dp"
+                android:color="#fbe9c9" /> <!-- Change to desired border color -->
+        </shape>
+    </item>
+
+</layer-list>

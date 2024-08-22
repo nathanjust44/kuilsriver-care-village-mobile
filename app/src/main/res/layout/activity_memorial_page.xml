@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ObituaryPage">
+    tools:context=".MainActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -76,43 +76,39 @@
         app:layout_constraintVertical_bias="0.427" />
 
     <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Obituary of Jane Doe"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="344dp"
-        android:layout_height="137dp"
-        android:text="Jane Doe, loving wife of John Doe and devoted mother of three, peacefully passed away in her sleep in March 2024. Known for her kindness, warmth, and passion for baking, Jane's memory will
-forever be cherished by her family and friends. Her legacy of love and generosity will continue to inspire
-all who were fortunate enough to have known her."
-        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.743" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="57dp"
-        android:layout_height="49dp"
+        android:id="@+id/memory_button_1"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:background="@drawable/memorial_btn_bg_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="In Loving Memory Of Jane Doe\n1955 - 2024"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.622" />
+
+    <TextView
+        android:id="@+id/memory_button_3"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:background="@drawable/memorial_btn_bg_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="In Loving Memory Of John Doe\n1950 - 2023"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/baseline_arrow_circle_left_24" />
+        app:layout_constraintVertical_bias="0.809" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
